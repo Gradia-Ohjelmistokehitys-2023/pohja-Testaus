@@ -19,7 +19,7 @@ Tee tehtäviin 1-2 VÄHINTÄÄN 3 testitapausta per kohta ja tiedostojen käsitt
 
 ## 1. Lukujen testaamista
  1. Tee ohjelma, joka ottaa parametrina kaksi kokonaislukua(int), vähentää ne toisistaan ja palauttaa lopputuloksen. Luvut voivat olla negatiivisia. Tee ohjelmalle yksikkötestit.
- 2. Tee ohjelma, joka ottaa syötteenä kokonaisluvun. Sallituin suurin arvo, jonka ohjelma käsittelee on 100. Ohjelma palauttaa luvun toisen potenssin (n^2). Tee ohjelmalle yksikkötestit.
+ 2. Tee ohjelma, joka ottaa syötteenä kokonaisluvun. Sallituin suurin parametrin arvo, jonka ohjelma käsittelee on 100. Ohjelma palauttaa luvun toisen potenssin (n^2). Tee ohjelmalle yksikkötestit.
  3. Tee ohjelma, joka ottaa parametrinä kokonaisluvun. Ohjelma palauttaa luvun neliöjuuren. Tee ohjelmalle yksikkötestit.
 
 ## 2. Etsi pienin, suurin, laske keskiarvo

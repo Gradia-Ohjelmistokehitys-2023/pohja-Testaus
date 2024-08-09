@@ -15,7 +15,7 @@ Hyvän päivän "ns. good weather" tapaus eli, jos ohjelma laskee yhteen 2+2, ni
 Huono tapaus eli "ns. bad weather", jos lasketaan 2-3 = -5, niin tulee virhe."Ei ole oikein."
 Testaa lukujen rajat, koska esimerkiksi neliöjuuri ei voi olla negatiivisesta luvusta. 
 
-Tee tehtäviin 1-2 VÄHINTÄÄN 3 testitapausta per kohta ja tiedostojen käsittelyyn vähintään 4 testitapausta.
+Tee tehtäviin 1-2 VÄHINTÄÄN 3 testitapausta per kohta ja löytyykö tiedostojen käsittelyyn neljättä testitapausta.
 
 ## 1. Lukujen testaamista
  1. Tee ohjelma, joka ottaa parametrina kaksi kokonaislukua(int), vähentää ne toisistaan ja palauttaa lopputuloksen. Luvut voivat olla negatiivisia. Tee ohjelmalle yksikkötestit.

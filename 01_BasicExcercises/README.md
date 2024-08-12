@@ -1,4 +1,4 @@
-## Perustehtävät
+d## Perustehtävät
 
 **Tee aluksi alla oleva tutoriaali läpi ja aloita vasta sitten tehtävien tekeminen. Tehtävää jatketaan myöhemmin!**
 * https://learn.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022. Kyseistä tehtävää jatkokehitetään tehtävässä kaksi.
@@ -15,22 +15,22 @@ Hyvän päivän "ns. good weather" tapaus eli, jos ohjelma laskee yhteen 2+2, ni
 Huono tapaus eli "ns. bad weather", jos lasketaan 2-3 = -5, niin tulee virhe."Ei ole oikein."
 Testaa lukujen rajat, koska esimerkiksi neliöjuuri ei voi olla negatiivisesta luvusta. 
 
-Tee tehtäviin 1-2 VÄHINTÄÄN 3 testitapausta per kohta ja löytyykö tiedostojen käsittelyyn neljättä testitapausta.
+Tee tehtäviin 1-2 VÄHINTÄÄN 3 testitapausta per kohta ja löytyykö tiedostojen käsittelyyn neljättä testitapausta. Tee tehtävän kaikki metodit samaan projektiin.
 
 ## 1. Lukujen testaamista
- 1. Tee ohjelma, joka ottaa parametrina kaksi kokonaislukua(int), vähentää ne toisistaan ja palauttaa lopputuloksen. Luvut voivat olla negatiivisia. Tee ohjelmalle yksikkötestit.
- 2. Tee ohjelma, joka ottaa syötteenä kokonaisluvun. Sallituin suurin parametrin arvo, jonka ohjelma käsittelee on 100. Ohjelma palauttaa luvun toisen potenssin (n^2). Tee ohjelmalle yksikkötestit.
- 3. Tee ohjelma, joka ottaa parametrinä kokonaisluvun. Ohjelma palauttaa luvun neliöjuuren. Tee ohjelmalle yksikkötestit.
+ 1. Tee metodi, joka ottaa parametrina kaksi kokonaislukua(int), vähentää ne toisistaan ja palauttaa lopputuloksen. Luvut voivat olla negatiivisia. Tee ohjelmalle yksikkötestit.
+ 2. Tee metodi, joka ottaa syötteenä kokonaisluvun. Sallituin suurin parametrin arvo, jonka ohjelma käsittelee on 100. Ohjelma palauttaa luvun toisen potenssin (n^2). Tee ohjelmalle yksikkötestit.
+ 3. Tee metodi, joka ottaa parametrinä kokonaisluvun. Ohjelma palauttaa luvun neliöjuuren. Tee ohjelmalle yksikkötestit.
 
 ## 2. Etsi pienin, suurin, laske keskiarvo
 
-1. Tee ohjelma, joka etsii double tyyppisestä listasta (List<double>) pienimmän arvon ja palauttaa sen. Tee itse pienimmän arvon etsiminen. List.Min metodin käyttö on kielletty. Tee ohjelmalle yksikköstestit.
-2. Tee ohjelma, joka etsii int tyyppisestä listasta (List<int>) suurimman arvon ja palauttaa sen. Tee itse suurimman arvon etsiminen. List.Max metodin käyttö on kielletty. Tee ohjelmalle yksikköstestit. 
-3. Tee ohjelma, joka laskee float tyyppissen listan (List<float>) lukujen keskiarvon ja palauttaa sen. Tee ohjelmalle yksikköstestit. 
+1. Tee metodi, joka etsii double tyyppisestä listasta (List<double>) pienimmän arvon ja palauttaa sen. Tee itse pienimmän arvon etsiminen. List.Min metodin käyttö on kielletty. Tee ohjelmalle yksikköstestit.
+2. Tee metodi, joka etsii int tyyppisestä listasta (List<int>) suurimman arvon ja palauttaa sen. Tee itse suurimman arvon etsiminen. List.Max metodin käyttö on kielletty. Tee ohjelmalle yksikköstestit. 
+3. Tee metodi, joka laskee float tyyppissen listan (List<float>) lukujen keskiarvon ja palauttaa sen. Tee ohjelmalle yksikköstestit. 
 
 ## 3. Tiedostojen testaaminen
 
-Tee uusi solution ja projekti nimeltään FileOperations. Lisää projektiin testiprojekti.
+Lisää prjektiin uusi luokka File.
 Tehtävänäsi on suunnitella kaksi testiä lisää alla olevalle ohjelmalle. Nyt testataan, onko listassa yhtään alkiota. Mitä muita testejä keksit?
 ```c#
 

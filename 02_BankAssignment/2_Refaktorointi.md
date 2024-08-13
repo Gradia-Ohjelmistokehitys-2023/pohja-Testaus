@@ -13,3 +13,6 @@ BankAccount luokka sisältää tiedon sekä asiakkaasta, että tämän tilistä.
 ## Vinkkejä
 
 Muista että Visual Studiossa voit luoda aksessorit (accessors, getters, setters) luokan kentistä (fields) automaattisesti valitsemalla ylävalikosta edit -> refactor -> encapsulate fields.
+
+
+   Siirry seuraavaksi **[tehtävän viimeiseen vaiheeseen - Funktionaalinen testi](3_FunktionaalinenTesti.md)**

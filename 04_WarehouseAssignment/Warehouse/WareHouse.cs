@@ -41,7 +41,7 @@ namespace WareHouse
             Stock? stock = null;
             if (InStock(itemName))
             {
-
+                //Koodi ei nyt hae oikeaa itemiä. Korjaa LINQ haku niin että haluttu tuote otetaan pois
                 stock = _stockOfItems.FirstOrDefault(item => item.Quantity > 0);
                 stock.Quantity -= quantity;
             }

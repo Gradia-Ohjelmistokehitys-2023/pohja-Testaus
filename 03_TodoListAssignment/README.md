@@ -54,6 +54,7 @@ Myös projektin metodit ovat alttiita kaikenlaisille virhetilanteille.
     - Poista tehtävä listasta. Toimiiko laskuri oikein?
     - Poista tehtävä tyhjästä listasta.
     - Poista viimeinen tehtävä listasta.
+    - Poista ensimmäinen tehtävä listasta. Onnistuuko?
     - Poista tietty tehtävä listasta.
     - Poista tehtävä, jota ei ole olemassa.
     - Poista useampi tehtävä peräkkäin.

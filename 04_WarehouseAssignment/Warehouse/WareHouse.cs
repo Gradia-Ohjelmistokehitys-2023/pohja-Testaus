@@ -1,7 +1,7 @@
-﻿using Warehouse;
 
 
-namespace WareHouse
+
+namespace Warehouse
 {
 
     public class WareHouse

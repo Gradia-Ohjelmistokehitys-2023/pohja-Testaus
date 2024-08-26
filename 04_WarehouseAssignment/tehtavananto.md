@@ -1,6 +1,6 @@
 # Warehouse
 
-Tehtävänäsi on tutustua olemassa olevaan ohjelmakoodiin ja tehdä siihen yksikkötestit. Tee jokaiselle metodille alla olevat testit sekä keksi jokaiselle metodille kaksi omaa testiä. Koita miettiä laajasti erilaisia testitapauksia.
+Tehtävänäsi on tutustua olemassa olevaan ohjelmakoodiin ja tehdä siihen yksikkötestit. Tee jokaiselle metodille alla olevat testit, keksitkö metodeille muita testejä? Koita miettiä laajasti erilaisia testitapauksia.
 
 ## Alla esimerkkejä mahdollisista yksikkötesteistä:
 

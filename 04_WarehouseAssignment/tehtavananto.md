@@ -1,21 +1,31 @@
 # Warehouse
 
-Tehtävänäsi on tutustua olemassa olevaan ohjelmakoodiin ja tehdä siihen yksikkötestit. Tee jokaiselle metodille alla olevat testit, keksitkö metodeille muita testejä? Koita miettiä laajasti erilaisia testitapauksia.
+Tee jokaiselle metodille alla olevat testit. Koita miettiä laajasti erilaisia testitapauksia.
 
-## Alla esimerkkejä mahdollisista yksikkötesteistä:
+## Tee alla olevat yksikkötestit:
+Sivuuta tässä vaiheessa metodien sisältö ja sen mahdolliset virheet, vaan kirjoita testit niin kuin ne sinusta olisi järkevä toimia. 
+Kun kaikki testit on tehty, niiden ei pitäisi mennä läpi, koska koodissa on epäjohdon mukaisuuksia. Korjaa seuraavaksi koodia niin että se toimii sinun testien määrittämällä tavalla. [Test first](https://www.soapui.org/learn/functional-testing/test-first/) Lopussa kaikkien testien pitäisi mennä läpi.  
+ Keksitkö metodeille nyt uusia testejä joista se ei vielä pääse läpi. 
 
 AddToStock:
 
-- Lisää esine, jolla on määränä kunnollinen positiivinen arvo.
+- Lisää esine, jolla on määränä kunnollinen positiivinen arvo.   
 - Lisää esine, jolla on määränä arvo nolla.
+  - _Assert vaihtoehdot:_
+    - _esine löytyy listalta ja määrä on nolla_  
+    - _esinettä ei lisätä listaan_
+   Eli tässä kohti määrittelet kuinka valmiin sovelluksen kuuluisi toimia tässä tilanteessa.   
 - Lisää esine, jolla on negatiivinen arvo.
+  - Assert: virhe, määränä nolla tms...   
 - Lisää esine, jolla on mielestäsi kohtuuttoman suuri arvo.
 
 InStock:
 
-- Tarkista onko esinettä varastossa positiivinen määrä (esim. datarown:n avulla).
+- Tarkista onko esinettä varastossa positiivinen määrä.
 - Tarkista onko varastossa esine määrällä nolla.
 - Tarkasta voiko esinettä olla varastossa negatiivinen määrä.
+  - Tuotetta on lisätty negatiivinen määrä
+  - Tuotetta on otettu varastosta enemmän kuin sitä on
 
 TakeFromStock:
 

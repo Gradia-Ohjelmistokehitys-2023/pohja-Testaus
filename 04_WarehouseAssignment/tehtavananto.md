@@ -13,7 +13,7 @@ AddToStock:
 - Lisää esine, jolla on määränä arvo nolla.
   - _Assert vaihtoehdot:_
     - _esine löytyy listalta ja määrä on nolla_  
-    - _esinettä ei lisätä listaan_
+    - _esinettä ei lisätä listaan_  
    Eli tässä kohti määrittelet kuinka valmiin sovelluksen kuuluisi toimia tässä tilanteessa.   
 - Lisää esine, jolla on negatiivinen arvo.
   - Assert: virhe, määränä nolla tms...   
